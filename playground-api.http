@@ -1,0 +1,44 @@
+###
+POST http://localhost:8080/api/v1/bookmarks
+Content-Type: application/json
+
+{
+  "title": "TAS Playground 2",
+  "url": "http://tas-playground.com"
+}
+
+<> 2024-07-11T150014.200.json
+<> 2024-07-11T150013.200.json
+<> 2024-07-11T150011.200.json
+<> 2024-07-11T150009.200.json
+<> 2024-07-11T144840.500.json
+<> 2024-07-11T144817.200.json
+<> 2024-07-11T144512.500.json
+<> 2024-07-11T144154.500.json
+<> 2024-07-11T143957.500.json
+<> 2024-07-11T143917.500.json
+<> 2024-07-11T143808.500.json
+<> 2024-07-11T143759.200.json
+<> 2024-07-11T143352.500.json
+<> 2024-07-11T143230.500.json
+<> 2024-07-11T143036.500.json
+
+###
+GET http://localhost:8080/api/v1/bookmarks
+Content-Type: application/json
+
+<> 2024-07-11T175706.200.json
+<> 2024-07-11T150020.200.json
+<> 2024-07-11T143812.200.json
+<> 2024-07-11T143803.200.json
+<> 2024-07-11T143127.500.json
+<> 2024-07-11T143109.404.json
+
+###
+GET http://localhost:8080/api/v1/secrets/message
+
+<> 2024-07-11T182947.404.json
+<> 2024-07-11T175658.404.json
+<> 2024-07-11T175251.404.json
+<> 2024-07-11T175229.404.json
+<> 2024-07-11T175121.404.json

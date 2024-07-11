@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: tas-playground
+  sql:
+    init:
+      mode: always
+
+secret:
+  message: LOCAL_CREDENTIAL
+
+logging:
+  level:
+    com.ahmedmq.tas: DEBUG
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, env
+  endpoint:
+    env:
+      show-values: always  # DO NOT TRY THIS IN PRODUCTION

@@ -1,0 +1,7 @@
+applications:
+  - name: tas-playground
+    memory: 1G
+    path: ../build/libs/tas-playground-0.0.1-SNAPSHOT.jar
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 21.+ } }'
+      SPRING_PROFILES_ACTIVE: cloud
